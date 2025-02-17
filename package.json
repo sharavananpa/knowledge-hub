@@ -1,0 +1,16 @@
+{
+  "name": "knowledge-hub",
+  "version": "1.0.0",
+  "description": "Concise information on different things I learn.",
+  "license": "ISC",
+  "author": "Sharavanan",
+  "type": "module",
+  "main": "index.md",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
